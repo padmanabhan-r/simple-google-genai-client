@@ -6,6 +6,7 @@ from dotenv import load_dotenv, find_dotenv
 
 load_dotenv(find_dotenv())
 
+
 class GoogleClient:
     def __init__(self, model="gemma-3-1b-it", api_key=None, region="global"):
         client_options = {}
